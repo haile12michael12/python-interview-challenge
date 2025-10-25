@@ -1,6 +1,6 @@
 # 30-Day Senior Python Challenge
 
-A comprehensive 40-day challenge designed to level up your Python skills to senior level. Each day focuses on a specific advanced concept or real-world application.
+A comprehensive 60-day challenge designed to level up your Python skills to senior level. Each day focuses on a specific advanced concept or real-world application.
 
 ## Challenge Structure
 
@@ -74,6 +74,44 @@ Extended challenges for those seeking architect-level expertise.
 | 39 | 🔐 Access Control Middleware System (RBAC) | Security, permissions, policy design |
 | 40 | 🚀 Final Capstone: AI-Driven Analytics Cloud | Combine everything — full platform with API, tasks, and data pipelines |
 
+### WEEK 6 — Cloud & DevOps Engineering
+Master cloud infrastructure and deployment strategies.
+
+| Day | Project | What It Tests |
+|-----|---------|---------------|
+| 41 | 🐳 Container Orchestration (Kubernetes) | Cluster management, scaling, health checks |
+| 42 | 🧱 Infrastructure as Code (Terraform) | Declarative infrastructure, state management |
+| 43 | 👁️ Monitoring & Logging Stack | Centralized logging, metrics collection |
+| 44 | 🔁 CI/CD Pipeline (GitHub Actions) | Automated testing, deployment workflows |
+| 45 | 🔒 Cloud Security Framework | IAM, encryption, compliance scanning |
+| 46 | ☁️ Serverless Architecture (AWS Lambda) | Event-driven computing, cost optimization |
+| 47 | 🌩️ Multi-Cloud Deployment Strategy | Vendor lock-in avoidance, redundancy |
+
+### WEEK 7 — AI & ML Engineering
+Build intelligent systems with machine learning.
+
+| Day | Project | What It Tests |
+|-----|---------|---------------|
+| 48 | 🤖 ML Model Deployment Pipeline | Model serving, versioning, A/B testing |
+| 49 | 📝 NLP Processing Pipeline | Text preprocessing, sentiment analysis |
+| 50 | 👁️ Computer Vision API | Image recognition, object detection |
+| 51 | 🎮 Reinforcement Learning Agent | Decision making, reward optimization |
+| 52 | 📈 Time Series Forecasting System | Predictive analytics, anomaly detection |
+| 53 | 🧠 AutoML Pipeline | Automated feature engineering, hyperparameter tuning |
+| 54 | 📊 Model Monitoring & Drift Detection | Performance tracking, data drift alerts |
+
+### WEEK 8 — Enterprise Capstone Projects
+Apply everything to build enterprise-grade systems.
+
+| Day | Project | What It Tests |
+|-----|---------|---------------|
+| 55 | 🏢 Enterprise Microservices Suite | Distributed architecture, service mesh |
+| 56 | 🔄 Distributed Data Processing Pipeline | Stream processing, fault tolerance |
+| 57 | 📈 Realtime Analytics Dashboard | Live data visualization, interactive querying |
+| 58 | 🛡️ Security Incident Response System | Threat detection, automated response |
+| 59 | ⚡ Performance Optimization Framework | Profiling, caching, load testing |
+| 60 | 🎯 Complete System Architecture | End-to-end solution, documentation, deployment |
+
 ## Project Structure
 
 - Week 1: Core Foundations (7 days)
@@ -81,6 +119,9 @@ Extended challenges for those seeking architect-level expertise.
 - Week 3: Backend Architecture (7 days)
 - Week 4: Data Systems (9 days)
 - Week 5: Advanced Bonus Projects (10 days)
+- Week 6: Cloud & DevOps Engineering (7 days)
+- Week 7: AI & ML Engineering (7 days)
+- Week 8: Enterprise Capstone Projects (6 days)
 
 ## Getting Started
 

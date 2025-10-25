@@ -1,6 +1,6 @@
 # Progress Tracking
 
-Track your progress through the 40-day challenge.
+Track your progress through the 60-day challenge.
 
 ## WEEK 1 — Core Architecture, Patterns, and Testing
 
@@ -74,3 +74,44 @@ Big-data handling and distributed processing.
 | 38 | 🕵️ Event Log Replay Simulator | Replay system for debugging | [ ] |
 | 39 | 🔐 Access Control Middleware System (RBAC) | Security, permissions, policy design | [ ] |
 | 40 | 🚀 Final Capstone: AI-Driven Analytics Cloud | Combine everything — full platform with API, tasks, and data pipelines | [ ] |
+
+## WEEK 6 — Cloud & DevOps Engineering
+
+Master cloud infrastructure and deployment strategies.
+
+| Day | Project | What It Tests | Completed |
+|-----|---------|---------------|-----------|
+| 41 | 🐳 Container Orchestration (Kubernetes) | Cluster management, scaling, health checks | [ ] |
+| 42 | 🧱 Infrastructure as Code (Terraform) | Declarative infrastructure, state management | [ ] |
+| 43 | 👁️ Monitoring & Logging Stack | Centralized logging, metrics collection | [ ] |
+| 44 | 🔁 CI/CD Pipeline (GitHub Actions) | Automated testing, deployment workflows | [ ] |
+| 45 | 🔒 Cloud Security Framework | IAM, encryption, compliance scanning | [ ] |
+| 46 | ☁️ Serverless Architecture (AWS Lambda) | Event-driven computing, cost optimization | [ ] |
+| 47 | 🌩️ Multi-Cloud Deployment Strategy | Vendor lock-in avoidance, redundancy | [ ] |
+
+## WEEK 7 — AI & ML Engineering
+
+Build intelligent systems with machine learning.
+
+| Day | Project | What It Tests | Completed |
+|-----|---------|---------------|-----------|
+| 48 | 🤖 ML Model Deployment Pipeline | Model serving, versioning, A/B testing | [ ] |
+| 49 | 📝 NLP Processing Pipeline | Text preprocessing, sentiment analysis | [ ] |
+| 50 | 👁️ Computer Vision API | Image recognition, object detection | [ ] |
+| 51 | 🎮 Reinforcement Learning Agent | Decision making, reward optimization | [ ] |
+| 52 | 📈 Time Series Forecasting System | Predictive analytics, anomaly detection | [ ] |
+| 53 | 🧠 AutoML Pipeline | Automated feature engineering, hyperparameter tuning | [ ] |
+| 54 | 📊 Model Monitoring & Drift Detection | Performance tracking, data drift alerts | [ ] |
+
+## WEEK 8 — Enterprise Capstone Projects
+
+Apply everything to build enterprise-grade systems.
+
+| Day | Project | What It Tests | Completed |
+|-----|---------|---------------|-----------|
+| 55 | 🏢 Enterprise Microservices Suite | Distributed architecture, service mesh | [ ] |
+| 56 | 🔄 Distributed Data Processing Pipeline | Stream processing, fault tolerance | [ ] |
+| 57 | 📈 Realtime Analytics Dashboard | Live data visualization, interactive querying | [ ] |
+| 58 | 🛡️ Security Incident Response System | Threat detection, automated response | [ ] |
+| 59 | ⚡ Performance Optimization Framework | Profiling, caching, load testing | [ ] |
+| 60 | 🎯 Complete System Architecture | End-to-end solution, documentation, deployment | [ ] |
