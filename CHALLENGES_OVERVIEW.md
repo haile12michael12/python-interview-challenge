@@ -33,10 +33,10 @@ Each challenge includes:
 - Solution template with docstrings
 - Test cases for validation
 
-## Collection 2: 40-Day Senior Python Challenge
+## Collection 2: 60-Day Senior Python Challenge
 
 ### Structure
-A comprehensive curriculum organized into 5 weeks:
+A comprehensive curriculum organized into 8 weeks:
 
 **Week 1: Core Architecture, Patterns, and Testing (Days 1-7)**
 - LRU Cache with Redis persistence
@@ -88,6 +88,32 @@ A comprehensive curriculum organized into 5 weeks:
 - Access Control Middleware (RBAC)
 - AI-Driven Analytics Cloud (Capstone)
 
+**Week 6: Cloud & DevOps Engineering (Days 41-47)**
+- Container Orchestration (Kubernetes)
+- Infrastructure as Code (Terraform)
+- Monitoring & Logging Stack
+- CI/CD Pipeline (GitHub Actions)
+- Cloud Security Framework
+- Serverless Architecture (AWS Lambda)
+- Multi-Cloud Deployment Strategy
+
+**Week 7: AI & ML Engineering (Days 48-54)**
+- ML Model Deployment Pipeline
+- NLP Processing Pipeline
+- Computer Vision API
+- Reinforcement Learning Agent
+- Time Series Forecasting System
+- AutoML Pipeline
+- Model Monitoring & Drift Detection
+
+**Week 8: Enterprise Capstone Projects (Days 55-60)**
+- Enterprise Microservices Suite
+- Distributed Data Processing Pipeline
+- Realtime Analytics Dashboard
+- Security Incident Response System
+- Performance Optimization Framework
+- Complete System Architecture
+
 ### Learning Outcomes
 By completing these challenges, you will gain expertise in:
 - Advanced Python programming techniques
@@ -98,6 +124,9 @@ By completing these challenges, you will gain expertise in:
 - DevOps practices and deployment strategies
 - Security implementation and best practices
 - Performance optimization and monitoring
+- Cloud infrastructure and containerization
+- Machine learning and AI integration
+- Enterprise system design and documentation
 
 ## Getting Started
 
@@ -107,7 +136,7 @@ By completing these challenges, you will gain expertise in:
 3. Select a challenge file and follow the instructions
 4. Implement your solution and run the test cases
 
-### For 40-Day Challenge:
+### For 60-Day Challenge:
 1. Navigate to the [30-Day-Senior-Python-Challenge/](python-%20challenge%20project/30-Day-Senior-Python-Challenge/) directory
 2. Follow the daily challenges sequentially for best learning progression
 3. Use the [progress.md](python-%20challenge%20project/30-Day-Senior-Python-Challenge/progress.md) file to track your completion

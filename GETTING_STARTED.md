@@ -24,7 +24,7 @@ python-interview-challenge/
 │       └── ... (50 total)
 │
 └── python- challenge project/
-    └── 30-Day-Senior-Python-Challenge/ # 40-Day Challenge
+    └── 30-Day-Senior-Python-Challenge/ # 60-Day Challenge
         ├── README.md
         ├── progress.md
         ├── requirements.txt
@@ -34,7 +34,10 @@ python-interview-challenge/
         ├── week2_concurrency_async/    # Days 8-14
         ├── week3_backend_architecture/ # Days 15-21
         ├── week4_data_systems/         # Days 22-30
-        └── week5_advanced_bonus/       # Days 31-40
+        ├── week5_advanced_bonus/       # Days 31-40
+        ├── week6_cloud_devops/         # Days 41-47
+        ├── week7_ai_ml_engineering/    # Days 48-54
+        └── week8_final_capstone/       # Days 55-60
 ```
 
 ## Choosing the Right Collection
@@ -45,9 +48,9 @@ python-interview-challenge/
 - Progress to **Senior** challenges for advanced system design questions
 
 ### For Skill Development and Portfolio Building:
-- Use the **40-Day Senior Python Challenge**
+- Use the **60-Day Senior Python Challenge**
 - Follow the structured curriculum week by week
-- Build a portfolio of 40 projects showcasing different skills
+- Build a portfolio of 60 projects showcasing different skills
 
 ## Getting Started with 100 Coding Challenges
 
@@ -74,7 +77,7 @@ python-interview-challenge/
    python challenge_001.py  # Run tests
    ```
 
-## Getting Started with 40-Day Challenge
+## Getting Started with 60-Day Challenge
 
 1. **Install dependencies:**
    ```bash
@@ -101,7 +104,7 @@ python-interview-challenge/
 - Manually track completed challenges
 - Consider creating your own progress tracker
 
-### For 40-Day Challenge:
+### For 60-Day Challenge:
 - Use the `progress.md` file with checkboxes
 - Update the file as you complete each day's challenge
 
@@ -110,8 +113,8 @@ python-interview-challenge/
 1. **Beginners:** Start with 100 Coding Challenges - Intermediate level
 2. **Intermediate developers:** 
    - Complete 100 Coding Challenges - Senior level
-   - Then start 40-Day Challenge
-3. **Advanced developers:** Jump directly into 40-Day Challenge
+   - Then start 60-Day Challenge
+3. **Advanced developers:** Jump directly into 60-Day Challenge
 
 ## Tips for Success
 
