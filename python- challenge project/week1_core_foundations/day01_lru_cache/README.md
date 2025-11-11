@@ -1,29 +1,96 @@
-# Day 1: LRU Cache
+# Day 1: LRU Cache Implementation
 
-## Challenge
-Implement an LRU (Least Recently Used) Cache data structure with the following operations:
-- `get(key)` - Get the value for a key if it exists, otherwise return -1
-- `put(key, value)` - Insert or update a key-value pair
+This directory contains multiple implementations of the Least Recently Used (LRU) cache algorithm as part of the 60-Day Senior Python Challenge.
 
-The cache should have a fixed capacity and evict the least recently used item when it's full.
+## Project Structure
 
-## Advanced Twist
-Add Redis-backed persistence to the LRU cache so that data survives application restarts.
+```
+lru_cache_project/
+├── lru_cache/
+│   ├── __init__.py
+│   ├── core.py                    # Core doubly linked list LRU cache
+│   ├── simple.py                  # OrderedDict-based LRU
+│   ├── redis_backed.py            # Redis-backed persistent LRU
+│   ├── thread_safe.py             # Thread-safe wrappers
+│   ├── exceptions.py              # Custom exceptions
+│   └── utils.py                   # Helper functions
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_core.py
+│   ├── test_redis_backed.py
+│   ├── test_thread_safe.py
+│   └── test_utils.py
+│
+├── scripts/
+│   ├── run_cache_demo.py          # CLI demo runner
+│   ├── benchmark.py               # Performance comparison
+│   └── redis_init.py              # Redis setup utility
+│
+├── docs/
+│   ├── README.md
+│   ├── DESIGN.md                  # Architecture explanation
+│   └── API_REFERENCE.md
+│
+├── requirements.txt               # Dependencies
+├── setup.py                       # For pip installation
+└── .gitignore
+```
 
-## Requirements
-- Time complexity for both operations should be O(1)
-- Use a combination of hash map and doubly linked list for optimal performance
-- For the advanced twist, integrate with Redis for persistence
+## Implementations
 
-## Implementation Tips
-1. Use Python's `collections.OrderedDict` for a simpler implementation or create your own doubly linked list
-2. For Redis integration, consider using the `redis` Python package
-3. Handle edge cases like capacity of 0 or 1
-4. Consider thread safety if needed for concurrent access
+### 1. Core LRU Cache (`lru_cache/core.py`)
+- Full-featured implementation using doubly linked list
+- O(1) time complexity for get/put operations
+- Custom doubly linked list implementation
 
-## Testing
-Create test cases for:
-- Basic get/put operations
-- Cache eviction when capacity is exceeded
-- Updating existing keys
-- Edge cases with small capacities
+### 2. Simple LRU Cache (`lru_cache/simple.py`)
+- Simplified implementation using OrderedDict
+- Easier to understand and maintain
+- Leverages Python's built-in data structures
+
+### 3. Thread-Safe LRU Cache (`lru_cache/thread_safe.py`)
+- Wrapper around core implementation with thread safety
+- Uses reentrant locks for synchronization
+- Safe for concurrent access
+
+### 4. Redis-Backed LRU Cache (`lru_cache/redis_backed.py`)
+- Persistent cache using Redis as backing store
+- Local cache for fast access
+- Cache-aside pattern implementation
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Run demos:
+   ```bash
+   python scripts/run_cache_demo.py
+   ```
+
+3. Run tests:
+   ```bash
+   python -m unittest discover tests
+   ```
+
+4. Run benchmarks:
+   ```bash
+   python scripts/benchmark.py
+   ```
+
+## Learning Objectives
+
+- Understand LRU cache algorithm and its applications
+- Implement data structures for optimal performance
+- Handle thread safety in concurrent environments
+- Design extensible and maintainable code
+- Work with persistence layers (Redis)
+- Write comprehensive tests and benchmarks
+
+## Related Resources
+
+- [Design Documentation](docs/DESIGN.md)
+- [API Reference](docs/API_REFERENCE.md)

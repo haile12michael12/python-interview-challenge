@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lru-cache-project"
+description = "Multiple implementations of LRU (Least Recently Used) cache algorithm"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Python Challenge Project", email = "challenge@example.com"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "redis>=4.0.0",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "flake8",
+    "mypy",
+    "pytest",
+    "pytest-cov",
+]
+redis = [
+    "redis>=4.0.0",
+]
+
+[project.scripts]
+lru-demo = "scripts.run_cache_demo:main"
+lru-benchmark = "scripts.benchmark:main"
+lru-redis-init = "scripts.redis_init:main"
+
+[project.urls]
+Homepage = "https://github.com/python-challenge-project/lru-cache"
+Documentation = "https://github.com/python-challenge-project/lru-cache/docs"
+Repository = "https://github.com/python-challenge-project/lru-cache"

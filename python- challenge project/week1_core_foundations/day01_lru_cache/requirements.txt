@@ -1,0 +1,13 @@
+# LRU Cache Project Dependencies
+
+# For Redis-backed implementation (optional)
+redis>=4.0.0
+
+# For testing
+pytest>=6.0.0
+pytest-cov>=2.10.0
+
+# For development
+black>=21.0.0
+flake8>=3.8.0
+mypy>=0.800
