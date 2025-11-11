@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+di_container/__init__.py
+di_container/container.py
+di_container/decorators.py
+di_container/exceptions.py
+di_container/utils.py
+di_container_project.egg-info/PKG-INFO
+di_container_project.egg-info/SOURCES.txt
+di_container_project.egg-info/dependency_links.txt
+di_container_project.egg-info/requires.txt
+di_container_project.egg-info/top_level.txt
+tests/__init__.py
+tests/test_autowire.py
+tests/test_container.py
+tests/test_errors.py

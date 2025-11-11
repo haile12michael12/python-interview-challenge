@@ -1,3 +1,30 @@
+Metadata-Version: 2.4
+Name: di-container-project
+Version: 1.0.0
+Summary: Dependency Injection Container Implementation
+Author: Python Challenge Project
+Author-email: Python Challenge Project <challenge@example.com>
+Project-URL: Homepage, https://github.com/python-challenge-project/di-container
+Project-URL: Repository, https://github.com/python-challenge-project/di-container
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Dynamic: author
+Dynamic: requires-python
+
 # Day 3: Dependency Injection Container
 
 ## Challenge Description

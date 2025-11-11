@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+src/json_parser/__init__.py
+src/json_parser/errors.py
+src/json_parser/parser.py
+src/json_parser/serializer.py
+src/json_parser/tokenizer.py
+src/json_parser/utils.py
+src/json_parser_project.egg-info/PKG-INFO
+src/json_parser_project.egg-info/SOURCES.txt
+src/json_parser_project.egg-info/dependency_links.txt
+src/json_parser_project.egg-info/top_level.txt
+tests/test_basic.py

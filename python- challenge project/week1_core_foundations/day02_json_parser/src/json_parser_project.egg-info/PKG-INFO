@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: json-parser-project
+Version: 1.0.0
+Summary: Advanced JSON Parser with Tokenizer and Serializer
+Author: Python Challenge Project
+Author-email: Python Challenge Project <challenge@example.com>
+Project-URL: Homepage, https://github.com/python-challenge-project/json-parser
+Project-URL: Repository, https://github.com/python-challenge-project/json-parser
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: requires-python
+
+# day02_json_parser: Custom JSON Parser
+
+## Challenge
+[Description of the custom json parser challenge]
+
+## Advanced Twist
+Support nested objects + arrays
+
+## Requirements
+- [List of requirements]
+
+## Implementation Tips
+- [Tips for implementation]
+
+## Testing
+- [Testing approach]
